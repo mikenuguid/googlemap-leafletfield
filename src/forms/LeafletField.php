@@ -176,7 +176,7 @@ class LeafletField extends FormField
         Requirements::javascript('nzta/googlemap-leafletfield: client/javascript/LeafletField.js');
 
         Requirements::css("https://unpkg.com/leaflet@1.3.4/dist/leaflet.css");
-        Requirements::css('//cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.9/leaflet.draw.css');
+        Requirements::css('//cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css');
         Requirements::css('nzta/googlemap-leafletfield: client/css/LeafletField.css');
     }
 
